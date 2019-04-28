@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xtensible.BotBar.Core", "Xtensible.BotBar.Core\Xtensible.BotBar.Core.csproj", "{767DCA94-7A91-4183-BDD4-1A4B9A5F2941}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E5E08716-E6C4-4706-AE0B-097D1F860382}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xtensible.BotBar.AspnetCoreTest", "Xtensible.BotBar.AspnetCoreTest\Xtensible.BotBar.AspnetCoreTest.csproj", "{71C38066-9154-4396-83A2-AA17279A6EF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xtensible.BotBar.AspNetCore", "Xtensible.BotBar.AspNetCore\Xtensible.BotBar.AspNetCore.csproj", "{255C3053-5FFD-48E7-8D31-007B76713316}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{767DCA94-7A91-4183-BDD4-1A4B9A5F2941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767DCA94-7A91-4183-BDD4-1A4B9A5F2941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767DCA94-7A91-4183-BDD4-1A4B9A5F2941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{767DCA94-7A91-4183-BDD4-1A4B9A5F2941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71C38066-9154-4396-83A2-AA17279A6EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C38066-9154-4396-83A2-AA17279A6EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C38066-9154-4396-83A2-AA17279A6EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C38066-9154-4396-83A2-AA17279A6EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{255C3053-5FFD-48E7-8D31-007B76713316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{255C3053-5FFD-48E7-8D31-007B76713316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{255C3053-5FFD-48E7-8D31-007B76713316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{255C3053-5FFD-48E7-8D31-007B76713316}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87FA2C76-51B4-4D27-8E72-A28CC0A45C6D}
+	EndGlobalSection
+EndGlobal
