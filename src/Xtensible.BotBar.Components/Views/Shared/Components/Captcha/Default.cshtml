@@ -1,0 +1,8 @@
+﻿@model Xtensible.BotBar.Core.Captcha
+<img src="@Model.Base64EncodedImageSrc" />
+<br />
+@Html.TextBox("captcha")
+<br />
+@Html.ValidationMessage("captcha")
+@Html.HiddenFor(m => m.HashedPhrase)
+@Html.HiddenFor(m => m.Timestamp)

@@ -7,6 +7,7 @@ namespace Xtensible.BotBar.Core
 	{
 		private readonly IClock _clock;
 		private static readonly Random _rng = new Random();
+		public const string DefaultSalt = "jU#X^9B6C4XzTbxL!XY0ieygqEbnM0";
 
 		public int CaptchaWidth { get; set; } = 100;
 		public int CaptchaHeight { get; set; } = 30;
@@ -15,7 +16,6 @@ namespace Xtensible.BotBar.Core
 		public Color CaptchaForegroundColor { get; set; } = Color.Black;
 		public string CaptchaFontFamily { get; set; } = "Arial";
 		public Func<string> PhraseGenerator { get; set; } = () => DefaultPhraseList.Phrases[_rng.Next(0, DefaultPhraseList.Phrases.Length)];
-		public string DefaultSalt { get; set; } = "jU#X^9B6C4XzTbxL!XY0ieygqEbnM0";
 
 		public CaptchaGenerator(IClock clock = null)
 		{
