@@ -1,7 +1,7 @@
 ﻿@model Xtensible.BotBar.Core.Captcha
 <img src="@Model.Base64EncodedImageSrc" />
 <br />
-@Html.TextBox("captcha")
+@Html.TextBox("captcha", String.Empty, new { placeholder = "Enter the word above" })
 <br />
 @Html.ValidationMessage("captcha")
 @Html.HiddenFor(m => m.HashedPhrase)
